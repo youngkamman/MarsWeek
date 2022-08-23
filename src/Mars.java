@@ -1,6 +1,11 @@
 
 public class Mars {
-    public static void main(String[] args) {
+    
+    public static void main(String[] args) throws InterruptedException {
+        GuessingGame guessingGame = new GuessingGame();
+        MarsExpedition marsExpedition = new MarsExpedition();
+        FindingsLists findingsLists = new FindingsLists();
+
         String ColonyName = "Rangers";
         int ShipPopulation = 300;
         double ShipFood = 4000.00;
@@ -43,6 +48,10 @@ public class Mars {
         }
         System.out.println("Landed");
         return false;
+
+        
+
+        
 
     }
 }
