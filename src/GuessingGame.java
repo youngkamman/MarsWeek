@@ -2,7 +2,7 @@ import java.util.Scanner;
 import java.util.Random;
 
 public class GuessingGame {
-    public  GuessingGame(){
+    public GuessingGame() {
         Scanner scan = new Scanner(System.in);
 
         boolean correctGuess = false;
@@ -63,10 +63,5 @@ public class GuessingGame {
         }
 
     }
-    
 
-
-
-        
-    
 }

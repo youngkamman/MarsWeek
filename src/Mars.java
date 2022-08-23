@@ -1,8 +1,7 @@
 
 public class Mars {
-    
+
     public static void main(String[] args) throws InterruptedException {
-       
 
         String ColonyName = "Rangers";
         int ShipPopulation = 300;
@@ -51,15 +50,5 @@ public class Mars {
 
         return false;
     }
-        
-        
-        
-        
-       
-        
-       
 
-        
-
-    
 }
