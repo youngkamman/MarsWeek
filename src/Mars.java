@@ -2,9 +2,7 @@
 public class Mars {
     
     public static void main(String[] args) throws InterruptedException {
-        GuessingGame guessingGame = new GuessingGame();
-        MarsExpedition marsExpedition = new MarsExpedition();
-        FindingsLists findingsLists = new FindingsLists();
+       
 
         String ColonyName = "Rangers";
         int ShipPopulation = 300;
@@ -32,7 +30,7 @@ public class Mars {
 
     }
 
-    private static boolean LandingCheck(int Loops) {
+    private static boolean LandingCheck(int Loops) throws InterruptedException {
         for (int i = 0; i <= Loops; i++) {
             if (((i % 3) == 0) && ((i % 5) == 0)) {
                 System.out.println("Keep Center");
@@ -47,11 +45,21 @@ public class Mars {
 
         }
         System.out.println("Landed");
+        new GuessingGame();
+        new MarsExpedition();
+        new FindingsLists();
+
         return false;
-
-        
-
-        
-
     }
+        
+        
+        
+        
+       
+        
+       
+
+        
+
+    
 }
